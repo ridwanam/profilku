@@ -1,0 +1,33 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+#main{
+  font-family: Montserrat;
+  color:green;
+  font-size: 0.8em;
+}
+#main img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-style: none;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+#main img:hover{
+  border-style: solid;
+  border-width:thin;
+  -webkit-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -o-transform:scale(1.2);
+  opacity: 1; z-index: 2;
+}
+.text{
+  margin-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
